@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgba(0,0,0,0.7);
+}
+
+#content{
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 70vw;
+    margin: 10vh 0;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 2vw;
+    display: flex;
+    flex-flow: column;
+    background-color: antiquewhite;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+#content input[type=text]{
+    border: none;
+    font-size: 2vw;
+    padding: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: antiquewhite;
+    color: rgba(0,0,0,0.7);
+}
+
+#content .reminder {
+    padding: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#content .reminder span{
+    padding: 0 5px;
+}
