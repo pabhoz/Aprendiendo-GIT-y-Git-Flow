@@ -12,11 +12,11 @@ body{
     flex-flow: column;
     align-items: center;
     color: rgba(0,0,0,0.7);
+    background-color: #ecf0f1;
 }
 body h1 {
     flex: 0.5;
     margin-top: 5vh;
-    background-color: #ecf0f1;
 }
 #content{
     flex: 9.5;
