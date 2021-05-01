@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "deploy-tst": "firebase use default && firebase deploy",
-  "deploy-dev": "firebase use staging && firebase deploy",
-  "deploy-prd": "firebase use prod && firebase deploy",
+  
   "scripts": {
+    "deploy-tst": "firebase use default && firebase deploy",
+    "deploy-dev": "firebase use staging && firebase deploy",
+    "deploy-prd": "firebase use prod && firebase deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
