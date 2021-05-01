@@ -1,0 +1,22 @@
+{
+  "name": "super-proyecto-diplomado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "deploy-tst": "firebase use default && firebase deploy",
+  "deploy-dev": "firebase use staging && firebase deploy",
+  "deploy-prd": "firebase use prod && firebase deploy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabhoz/Aprendiendo-GIT-y-Git-Flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabhoz/Aprendiendo-GIT-y-Git-Flow/issues"
+  },
+  "homepage": "https://github.com/pabhoz/Aprendiendo-GIT-y-Git-Flow#readme"
+}
