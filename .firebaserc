@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "dd-2021-test",
+    "staging": "dd-2021-dev",
+    "prod": "dd-2021-prd"
+  }
+}
