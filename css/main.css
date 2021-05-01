@@ -9,14 +9,19 @@ body{
     height: 100vh;
     font-family: Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
     color: rgba(0,0,0,0.7);
 }
-
+body h1 {
+    flex: 0.5;
+    margin-top: 5vh;
+}
 #content{
+    flex: 9.5;
     border: 1px solid rgba(0,0,0,0.1);
     width: 70vw;
-    margin: 10vh 0;
+    margin: 2vh 0 10vh 0;
     border-radius: 15px;
     padding: 15px;
     font-size: 2vw;
